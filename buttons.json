@@ -1,0 +1,119 @@
+[
+	{
+		"ID": 0,
+		"Name": "Home Printer Z Axis",
+		"Position": "/z-calibration",
+		"Color": "btn btn-success",
+		"Syscall": "",
+		"Gcode": "G28\r\nG91",
+		"ConfirmText": ""
+	},
+	{
+		"ID": 1,
+		"Name": "Turn Motor Power On",
+		"Position": "/z-calibration",
+		"Color": "btn btn-success",
+		"Syscall": "",
+		"Gcode": "M17",
+		"ConfirmText": ""
+	},
+	{
+		"ID": 2,
+		"Name": "Turn Motor Power Off",
+		"Position": "/z-calibration",
+		"Color": "btn btn-danger",
+		"Syscall": "",
+		"Gcode": "M84",
+		"ConfirmText": ""
+	},
+	{
+		"ID": 3,
+		"Name": "RAMPS Shutter Open",
+		"Position": "/projector-calibration",
+		"Color": "btn btn-success",
+		"Syscall": "",
+		"Gcode": "M280 P2 S160",
+		"ConfirmText": ""
+	},
+	{
+		"ID": 4,
+		"Name": "RAMPS Shutter Close",
+		"Position": "/projector-calibration",
+		"Color": "btn btn-danger",
+		"Syscall": "",
+		"Gcode": "M280 P2 S0",
+		"ConfirmText": ""
+	},
+	{
+		"ID": 5,
+		"Name": "Resin Drain Tilt 20mm",
+		"Position": "/",
+		"Color": "btn btn-warning",
+		"Syscall": "",
+		"Gcode": "M650 T20\r\nM653",
+		"ConfirmText": ""
+	},
+	{
+		"ID": 6,
+		"Name": "Return From Tilt",
+		"Position": "/",
+		"Color": "btn btn-info",
+		"Syscall": "",
+		"Gcode": "M654",
+		"ConfirmText": ""
+	},
+	{
+		"ID": 7,
+		"Name": "Resin Drain Tilt 20mm",
+		"Position": "/z-calibration",
+		"Color": "btn btn-warning",
+		"Syscall": "",
+		"Gcode": "M650 T20\r\nM653",
+		"ConfirmText": ""
+	},
+	{
+		"ID": 8,
+		"Name": "Return From Tilt",
+		"Position": "/z-calibration",
+		"Color": "btn btn-info",
+		"Syscall": "",
+		"Gcode": "M654",
+		"ConfirmText": ""
+	},
+	{
+		"ID": 9,
+		"Name": "RAMPS Projector On",
+		"Position": "/projector-calibration",
+		"Color": "btn btn-success",
+		"Syscall": "",
+		"Gcode": "M655 V1",
+		"ConfirmText": ""
+	},
+	{
+		"ID": 10,
+		"Name": "RAMPS Projector Off",
+		"Position": "/projector-calibration",
+		"Color": "btn btn-danger",
+		"Syscall": "",
+		"Gcode": "M655 V0",
+		"ConfirmText": ""
+	},
+	{
+		"ID": 11,
+		"Name": "RAMPS Projector On",
+		"Position": "/",
+		"Color": "btn btn-success",
+		"Syscall": "",
+		"Gcode": "M655 V1",
+		"ConfirmText": ""
+	},
+	{
+		"ID": 12,
+		"Name": "RAMPS Projector Off",
+		"Position": "/",
+		"Color": "btn btn-danger",
+		"Syscall": "",
+		"Gcode": "M655 V0",
+		"ConfirmText": ""
+	}
+]
