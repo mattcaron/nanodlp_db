@@ -115,5 +115,14 @@
 		"Syscall": "",
 		"Gcode": "M655 V0",
 		"ConfirmText": ""
+	},
+	{
+		"ID": 13,
+		"Name": "Up 50mm",
+		"Position": "/",
+		"Color": "btn btn-success",
+		"Syscall": "",
+		"Gcode": "G1 Z50",
+		"ConfirmText": ""
 	}
 ]
